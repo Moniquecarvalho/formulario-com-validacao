@@ -1,0 +1,95 @@
+body {
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+  
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background: url(/src/image/bg-repeat.jpg);
+  background-size: contain;
+  background-repeat: repeat;
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 337px;
+}
+
+.text h1 {
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 23.44px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.text p {
+  font-weight: 400;
+  font-size: 15px;
+  padding: 10px 36px 0 0;
+  color: #ffffff;
+}
+
+.form {
+  width: 340px;
+  height: 378px;
+  background-color: #ffffff;
+
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.form .dados {
+  height: 30px;
+  padding: 4px;
+  margin-top: 15px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.form .mensagem {
+  height: 100px;
+}
+
+.form .mandatory {
+  font-weight: 400;
+  font-size: 8px;
+  color: #F52E2E;
+} 
+
+.form .required-field {
+  font-size: 15px;
+  padding: 10px 0;
+}
+
+#button {
+  background-color: #3CCC87;
+  color: #ffffff;
+  border-radius: 5px;
+  border-color: #3CCC87 ;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.form .error-hidden {
+  display: none;
+}
+
+.form .error {
+  border: 2px solid #F52E2E;
+}
+
+.form .success {
+  border: 2px solid #3CCC87;
+}
