@@ -60,6 +60,7 @@ body {
 
 .form .mensagem {
   height: 100px;
+  resize: none;
 }
 
 .form .mandatory {
@@ -92,4 +93,22 @@ body {
 
 .form .success {
   border: 2px solid #3CCC87;
+}
+
+
+@media (max-width: 900px){
+  .container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .text {
+    gap: 20px;
+  }
+
+  .required-field{
+    margin-right: 157px;
+  }
 }
