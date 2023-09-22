@@ -48,12 +48,12 @@ body {
   display: flex;
   flex-direction: column;
   padding: 20px;
+  border-radius: 5px;
 }
 
 .form .dados {
   height: 30px;
   padding: 4px;
-  margin-top: 15px;
   border: 1px solid;
   border-radius: 5px;
 }
@@ -67,10 +67,11 @@ body {
   font-weight: 400;
   font-size: 8px;
   color: #F52E2E;
+  padding-bottom: 10px ;
 } 
 
 .form .required-field {
-  font-size: 15px;
+  font-size: 12px;
   padding: 10px 0;
 }
 
@@ -100,15 +101,15 @@ body {
   .container{
     display: flex;
     flex-direction: column;
+    align-items: center;
+  }
+   
+  .text h1{
     text-align: center;
-    gap: 30px;
+    margin: 10px 0;
   }
 
-  .text {
-    gap: 20px;
-  }
-
-  .required-field{
-    margin-right: 157px;
+  .text p{
+    text-align: center;
   }
 }
