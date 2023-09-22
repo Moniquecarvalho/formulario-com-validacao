@@ -1,13 +1,11 @@
-const formulario = document.getElementById('register');
-const dadosUsuario = document.querySelectorAll('.dados');
-const botao = document.getElementById('button');
+const camposFormulario = document.querySelectorAll('.dados');
+const botaoEnviar = document.querySelector('button');
 
-botao.addEventListener('click', function (event) {
-    event.preventDefault();
+botaoEnviar.addEventListener('click', (e) => {
+    e.preventDefault();
 
-    dadosUsuario.forEach(input => {
+    camposFormulario.forEach((input) => {
         if (input.value.trim() === "") {
-            input.classList.remove('success');
             input.classList.add('error');
             input.nextElementSibling.classList.remove('error-hidden');
         } else {
