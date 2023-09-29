@@ -5,7 +5,7 @@
   <p align="center">
    Neste projeto, a validação do formulário será implementada utilizando JavaScript puro. Quando o usuário tentar enviar o formulário, se algum campo não estiver devidamente preenchido, o contorno do campo de entrada ficará vermelho, e uma mensagem de erro com o texto 'Campo obrigatório' será exibida imediatamente abaixo do campo não preenchido. Por outro lado, quando todos os campos estiverem preenchidos corretamente, o contorno do campo ficará verde para indicar que os dados estão prontos para serem enviados.
     <br />
-    <a href="https://github.com/Moniquecarvalho/formulario-com-validacao"><strong>Visualizar o projeto »</strong></a>
+    <a href="https://moniquecarvalho.github.io/formulario-com-validacao/"><strong>Visualizar o projeto »</strong></a>
     <br />
     <br />
   </p>
