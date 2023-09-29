@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-  background: url(/src/image/bg-repeat.jpg);
+  background-image: url('/src/image/bg-repeat.jpg');
   background-size: contain;
   background-repeat: repeat;
   height: 100vh;
